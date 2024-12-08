@@ -19,7 +19,7 @@ form.addEventListener('submit', async (e) => {
 
   // Test-env.eba-kpbbnm52.us-east-2.elasticbeanstalk.com/api/process-list/
   try {
-    const response = await fetch('https://cors-anywhere.herokuapp.com/http://test-env.eba-kpbbnm52.us-east-2.elasticbeanstalk.com/api/process-list/', {
+    const response = await fetch('https://test-env.eba-kpbbnm52.us-east-2.elasticbeanstalk.com/api/process-list/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
